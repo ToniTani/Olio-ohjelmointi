@@ -6,10 +6,10 @@ namespace Employee
 {
     class Employee
     {
-        public string Name;
-        public int Id;
-        public string Position;
-        public int Salary;
+        public string name;
+        public int id;
+        public string position;
+        public int salary;
 
 
         public Employee(string name, int id, string position, int salary)
