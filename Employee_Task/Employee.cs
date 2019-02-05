@@ -14,36 +14,36 @@ namespace Employee
 
         public Employee(string name, int id, string position, int salary)
         {
-            Name = name;
-            Id = id;
-            Position = position;
-            Salary = salary;
+            this.name = name;
+            this.id = id;
+            this.position = position;
+            this.salary = salary;
         }
 
         public string CompareSalary(Employee employee)
         {
     
 
-            if (Salary > employee.Salary)
+            if (salary > employee.salary)
             {
-                return ($"Henkilön { Name } palkka on suurempi kuin henkilön { employee.Name } palkka.");
+                return ($"Henkilön { name } palkka on suurempi kuin henkilön { employee.name } palkka.");
             }
-            else if (Salary < employee.Salary)
+            else if (salary < employee.salary)
             {
-                return ($"Henkilön { employee.Name } palkka on suurempi kuin henkilön { Name } palkka.");
+                return ($"Henkilön { employee.name } palkka on suurempi kuin henkilön { name } palkka.");
             }
             else
             {
-                return ($"Henkilön { Name } palkka on sama kuin henkilön { employee.Name } palkka.");
+                return ($"Henkilön { name } palkka on sama kuin henkilön { employee.name } palkka.");
             }
         }
 
         public void PrintEmployeeInfo()
         {
-            Console.WriteLine($"\nTyöntekijän nimi: {Name}" +
-                $"\nTyöntekijän tunnus: {Id}" +
-                $"\nTyöntekijän titteli:{Position}" +
-                $"\nTyöntekijän palkka: {Salary}€");
+            Console.WriteLine($"\nTyöntekijän nimi: {name}" +
+                $"\nTyöntekijän tunnus: {id}" +
+                $"\nTyöntekijän titteli:{position}" +
+                $"\nTyöntekijän palkka: {salary}€");
         }
     }
 }
