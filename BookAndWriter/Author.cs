@@ -9,14 +9,14 @@ namespace BookAndWriter
         //Fields
         public readonly string name;
         public readonly string birthday;
-        Book Book;
+        Book book;
 
         //Constructor
         public Author(string name, string birthday, Book book)
         {
             this.name = name;
             this.birthday = birthday;
-            this.Book = book;
+            this.book = book;
         }
 
         //Methods
@@ -25,8 +25,8 @@ namespace BookAndWriter
             Console.WriteLine($"***************************************************");
             Console.WriteLine($"\nKirjailijan nimi on {name}," +
                 $"\nhän on syntynyt {birthday}\n");
-                Book.GetBook("Muumipeikko ja Pyrstötähti");
-                Book.GetBook("Keltainen Keisari");
+                book.GetBook("Muumipeikko ja Pyrstötähti");
+                book.GetBook("Keltainen Keisari");
         }
     }
 }
