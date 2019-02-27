@@ -8,9 +8,9 @@ namespace TaskTicketPrice
         //Fields
         public int isAge;
         public bool isMtk;
-        public int NormalPrice;
-        public decimal EndPrice;
-        public int Discount;
+        public int normalPrice;
+        public decimal endPrice;
+        public int discount;
         public bool isSoldier;
         public bool isStudent;
 
@@ -19,11 +19,11 @@ namespace TaskTicketPrice
         {
             isAge = 0;
             isMtk = false;
-            NormalPrice = 16;
-            EndPrice = 0;
+            normalPrice = 16;
+            endPrice = 0;
             isSoldier = false;
             isStudent = false;
-            Discount = 0;
+            discount = 0;
         }
 
         //Methods

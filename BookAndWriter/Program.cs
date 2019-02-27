@@ -24,7 +24,7 @@ namespace BookAndWriter
                 book1.Price = 44.10;
                 book2.Price = 25.60;
 
-            Console.WriteLine($"\n{book1.name} kirjan uusi hinta on: {book1.Price:C}");
+                Console.WriteLine($"\n{book1.name} kirjan uusi hinta on: {book1.Price:C}");
                 Console.WriteLine($"\n{book2.name} kirjan uusi hinta on: {book2.Price:C}");
 
                 Author author1 = new Author("Tove Janson", "10.01.1960 ", book1);

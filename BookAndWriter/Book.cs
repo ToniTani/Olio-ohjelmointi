@@ -20,7 +20,7 @@ namespace BookAndWriter
             this.name = name;
             this.writer = writer;
             this.publisher = publisher;
-            this.price = price;
+            this.Price = price;
             themeName = themename;
         }
 
@@ -58,7 +58,13 @@ namespace BookAndWriter
                 {
                     price = value * 0.9;
                 }
+            
+                else
+                {
+                price = value;
             }
+        }
+    
         }
         public string Author
         {
