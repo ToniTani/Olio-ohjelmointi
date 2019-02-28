@@ -1,0 +1,58 @@
+[
+  {
+    "Amount": 10,
+    "Colour": "Black",
+    "Model": "Lenovogo",
+    "Gpu": "Nvidia GTX1050",
+    "Price": 1117.95,
+    "Type": "Laptop"
+  },
+  {
+    "Amount": 5,
+    "Colour": "Black",
+    "Model": "Lenovogo",
+    "Gpu": "Nvidia GTX1080",
+    "Price": 1417.95,
+    "Type": "Desktop"
+  },
+  {
+    "Amount": 3,
+    "Colour": "Black",
+    "Model": "Lenovogo",
+    "Gpu": "Nvidia GTX1070",
+    "Price": 1217.95,
+    "Type": "Laptop"
+  },
+  {
+    "Amount": 22,
+    "Colour": "Black",
+    "Model": "Huawei",
+    "Gpu": "Nvidia GTX1050",
+    "Price": 4117.95,
+    "Type": "Laptop"
+  },
+  {
+    "Amount": 10,
+    "Colour": "White",
+    "Model": "Lenovogo",
+    "Gpu": "Nvidia GTX1050",
+    "Price": 1117.95,
+    "Type": "Desktop"
+  },
+  {
+    "Amount": 121,
+    "Colour": "Black",
+    "Model": "Lenovogo",
+    "Gpu": "Nvidia ATX1050",
+    "Price": 1117.95,
+    "Type": "Tablet"
+  },
+  {
+    "Amount": 1,
+    "Colour": "Unknown",
+    "Model": "Unknown",
+    "Gpu": "Unknown",
+    "Price": 100.05,
+    "Type": "Unknown"
+  }
+]
